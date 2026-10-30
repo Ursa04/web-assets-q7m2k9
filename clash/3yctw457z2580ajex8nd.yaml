@@ -5,8 +5,7 @@ proxies:
   type: hysteria2
   server: 144.225.246.116
   port: 443
-  username: cc
-  password: uzwPPPlZgsHT66q3
+  password: cc:uzwPPPlZgsHT66q3
   sni: www.bing.com
   skip-cert-verify: true
 - client-fingerprint: chrome
