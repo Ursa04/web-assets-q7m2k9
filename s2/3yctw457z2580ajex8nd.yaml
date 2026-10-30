@@ -5,12 +5,15 @@ proxies:
   type: hysteria2
   server: 144.225.246.116
   port: 4445
-  password: hzy:U5yCozyqeLY9C0rH
+  ports: 20001-30000
+  up: 50 Mbps
+  down: 50 Mbps
+  password: cc:uzwPPPlZgsHT66q3
   sni: www.bing.com
   skip-cert-verify: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: hzy|📊499.22GB|⏳24D
+  name: cc|📊494.12GB|⏳24D
   network: tcp
   port: 443
   reality-opts:
@@ -21,12 +24,12 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 333156a5-279a-4f02-a520-b74eacfe8bad
+  uuid: 46a06cc2-b384-402b-adcf-658a72d27937
 proxy-groups:
 - name: PROXY
   proxies:
   - 🚀 HY2 高速
-  - hzy|📊499.22GB|⏳24D
+  - cc|📊494.12GB|⏳24D
   - DIRECT
   type: select
 rule-providers:
