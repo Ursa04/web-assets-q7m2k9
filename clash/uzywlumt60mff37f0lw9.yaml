@@ -4,7 +4,7 @@ proxies:
 - name: 🚀 HY2 高速
   type: hysteria2
   server: 144.225.246.116
-  port: 443
+  port: 4445
   password: jjj:6zPYd5JkuWMTa47c
   sni: www.bing.com
   skip-cert-verify: true
