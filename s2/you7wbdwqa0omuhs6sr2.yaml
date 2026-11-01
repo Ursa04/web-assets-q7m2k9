@@ -13,7 +13,7 @@ proxies:
   skip-cert-verify: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: hzx|📊499.41GB|⏳24D
+  name: hzx|📊500.00GB|⏳22D
   network: tcp
   port: 443
   reality-opts:
@@ -29,7 +29,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 🚀 HY2 高速
-  - hzx|📊499.41GB|⏳24D
+  - hzx|📊500.00GB|⏳22D
   - DIRECT
   type: select
 rule-providers:

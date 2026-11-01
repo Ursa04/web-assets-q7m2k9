@@ -13,7 +13,7 @@ proxies:
   skip-cert-verify: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: zrh|📊499.65GB|⏳24D
+  name: zrh|📊500.00GB|⏳22D
   network: tcp
   port: 443
   reality-opts:
@@ -29,7 +29,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 🚀 HY2 高速
-  - zrh|📊499.65GB|⏳24D
+  - zrh|📊500.00GB|⏳22D
   - DIRECT
   type: select
 rule-providers:

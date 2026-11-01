@@ -13,7 +13,7 @@ proxies:
   skip-cert-verify: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: cxw|📊500.00GB|⏳24D
+  name: cxw|📊500.00GB|⏳22D
   network: tcp
   port: 443
   reality-opts:
@@ -29,7 +29,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 🚀 HY2 高速
-  - cxw|📊500.00GB|⏳24D
+  - cxw|📊500.00GB|⏳22D
   - DIRECT
   type: select
 rule-providers:
