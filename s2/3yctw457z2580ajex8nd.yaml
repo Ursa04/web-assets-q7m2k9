@@ -1,16 +1,6 @@
 profile:
   store-selected: true
 proxies:
-- name: 🚀 HY2 高速
-  type: hysteria2
-  server: 144.225.246.116
-  port: 4445
-  ports: 20001-30000
-  up: 50 Mbps
-  down: 50 Mbps
-  password: cc:uzwPPPlZgsHT66q3
-  sni: www.bing.com
-  skip-cert-verify: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: cc|📊500.00GB|⏳4D
@@ -28,7 +18,6 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🚀 HY2 高速
   - cc|📊500.00GB|⏳4D
   - DIRECT
   type: select

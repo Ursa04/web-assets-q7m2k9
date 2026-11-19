@@ -1,19 +1,9 @@
 profile:
   store-selected: true
 proxies:
-- name: 🚀 HY2 高速
-  type: hysteria2
-  server: 144.225.246.116
-  port: 4445
-  ports: 20001-30000
-  up: 50 Mbps
-  down: 50 Mbps
-  password: lwj:ufr6x6ufYam3lOQN
-  sni: www.bing.com
-  skip-cert-verify: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: lwj|📊499.99GB|⏳4D
+  name: lwj|📊499.82GB|⏳4D
   network: tcp
   port: 443
   reality-opts:
@@ -28,8 +18,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🚀 HY2 高速
-  - lwj|📊499.99GB|⏳4D
+  - lwj|📊499.82GB|⏳4D
   - DIRECT
   type: select
 rule-providers:
