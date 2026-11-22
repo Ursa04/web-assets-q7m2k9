@@ -3,7 +3,7 @@ profile:
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: hzy|📊499.98GB|⏳2D
+  name: hzy|📊499.98GB|⏳1D
   network: tcp
   port: 443
   reality-opts:
@@ -18,7 +18,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - hzy|📊499.98GB|⏳2D
+  - hzy|📊499.98GB|⏳1D
   - DIRECT
   type: select
 rule-providers:

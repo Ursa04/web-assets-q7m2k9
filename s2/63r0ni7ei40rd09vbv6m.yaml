@@ -3,7 +3,7 @@ profile:
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: lwj|📊496.34GB|⏳2D
+  name: lwj|📊496.21GB|⏳1D
   network: tcp
   port: 443
   reality-opts:
@@ -18,7 +18,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - lwj|📊496.34GB|⏳2D
+  - lwj|📊496.21GB|⏳1D
   - DIRECT
   type: select
 rule-providers:
