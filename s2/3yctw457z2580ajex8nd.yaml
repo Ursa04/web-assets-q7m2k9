@@ -3,7 +3,7 @@ profile:
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: cc|📊496.17GB|⏳1D
+  name: cc|📊494.08GB|⏳0D
   network: tcp
   port: 443
   reality-opts:
@@ -18,7 +18,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - cc|📊496.17GB|⏳1D
+  - cc|📊494.08GB|⏳0D
   - DIRECT
   type: select
 rule-providers:
