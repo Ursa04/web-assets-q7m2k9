@@ -30,13 +30,20 @@ proxies:
   udp: true
   uuid: 0663bcce-e991-4949-95f4-720042040178
 proxy-groups:
-- name: PROXY
+- name: ♻️ 自动切换
+  type: fallback
   proxies:
   - 弗里蒙特|📊495.94GB|⏳27D
   - 芝加哥|📊500.0GB
-  type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
+- name: PROXY
+  proxies:
+  - ♻️ 自动切换
+  - 弗里蒙特|📊495.94GB|⏳27D
+  - 芝加哥|📊500.0GB
+  - DIRECT
+  type: select
 rule-providers:
   apple:
     behavior: domain
