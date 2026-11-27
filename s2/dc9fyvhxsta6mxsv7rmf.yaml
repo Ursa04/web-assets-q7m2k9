@@ -3,7 +3,7 @@ profile:
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: master|📊495.95GB|⏳27D
+  name: master|📊495.94GB|⏳27D
   network: tcp
   port: 443
   reality-opts:
@@ -15,12 +15,28 @@ proxies:
   type: vless
   udp: true
   uuid: d7e6e71d-a008-4723-8330-a4224a9f9836
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 Dallas 备用
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CjvD0f4qGR750cXe1itIDiM_nJievs5d6DJj3P9g53k
+    short-id: 1bff761f
+  server: 104.223.121.32
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0663bcce-e991-4949-95f4-720042040178
 proxy-groups:
 - name: PROXY
   proxies:
-  - master|📊495.95GB|⏳27D
-  - DIRECT
-  type: select
+  - master|📊495.94GB|⏳27D
+  - 🇺🇸 Dallas 备用
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
 rule-providers:
   apple:
     behavior: domain

@@ -15,12 +15,28 @@ proxies:
   type: vless
   udp: true
   uuid: f39c943e-a538-48c9-877f-3df615175e63
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 Dallas 备用
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CjvD0f4qGR750cXe1itIDiM_nJievs5d6DJj3P9g53k
+    short-id: 1bff761f
+  server: 104.223.121.32
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17895f9e-ad32-461f-a24b-6dc3e98519e5
 proxy-groups:
 - name: PROXY
   proxies:
   - zrh|📊495.33GB|⏳27D
-  - DIRECT
-  type: select
+  - 🇺🇸 Dallas 备用
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
 rule-providers:
   apple:
     behavior: domain
