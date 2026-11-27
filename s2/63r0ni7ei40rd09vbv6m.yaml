@@ -3,7 +3,7 @@ profile:
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: lwj|📊491.19GB|⏳27D
+  name: 弗里蒙特|📊491.19GB|⏳27D
   network: tcp
   port: 443
   reality-opts:
@@ -17,7 +17,7 @@ proxies:
   uuid: 2e8b7289-b891-4620-90a1-a91231c5eac9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸 Dallas 备用
+  name: 芝加哥|📊491.19GB|⏳27D
   network: tcp
   port: 443
   reality-opts:
@@ -32,8 +32,8 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - lwj|📊491.19GB|⏳27D
-  - 🇺🇸 Dallas 备用
+  - 弗里蒙特|📊491.19GB|⏳27D
+  - 芝加哥|📊491.19GB|⏳27D
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
