@@ -17,7 +17,7 @@ proxies:
   uuid: d7e6e71d-a008-4723-8330-a4224a9f9836
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 芝加哥|📊495.94GB|⏳27D
+  name: 芝加哥|📊500.0GB
   network: tcp
   port: 443
   reality-opts:
@@ -33,7 +33,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 弗里蒙特|📊495.94GB|⏳27D
-  - 芝加哥|📊495.94GB|⏳27D
+  - 芝加哥|📊500.0GB
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
