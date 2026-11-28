@@ -3,7 +3,7 @@ profile:
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 弗里蒙特|📊495.26GB|⏳26D
+  name: 弗里蒙特|📊495.02GB|⏳26D
   network: tcp
   port: 443
   reality-opts:
@@ -33,14 +33,14 @@ proxy-groups:
 - name: ♻️ 自动切换
   type: fallback
   proxies:
-  - 弗里蒙特|📊495.26GB|⏳26D
+  - 弗里蒙特|📊495.02GB|⏳26D
   - 芝加哥|📊500.0GB
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: PROXY
   proxies:
   - ♻️ 自动切换
-  - 弗里蒙特|📊495.26GB|⏳26D
+  - 弗里蒙特|📊495.02GB|⏳26D
   - 芝加哥|📊500.0GB
   - DIRECT
   type: select
